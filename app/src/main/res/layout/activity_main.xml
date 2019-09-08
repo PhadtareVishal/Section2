@@ -10,15 +10,15 @@
         android:id="@+id/button_load_from_server"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/button_get"
+        android:layout_marginTop="56dp"
+        android:text="@string/button_reload"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/RadioGroup" />
 
     <TextView
         android:id="@+id/TEXT_1"
-        android:layout_width="284dp"
+        android:layout_width="283dp"
         android:layout_height="44dp"
         android:layout_marginTop="60dp"
         android:text="@string/TEXT_1_TEXT"
@@ -26,21 +26,19 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/TEXT_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.492" />
 
     <TextView
         android:id="@+id/TEXT_2"
-        android:layout_width="276dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="283dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
         android:text="@string/TEXT_2_TEXT"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TEXT_1" />
 
@@ -55,10 +53,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/TEXT_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TEXT_2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.185" />
 
     <TextView
         android:id="@+id/TEXT_4"
@@ -71,10 +68,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/TEXT_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TEXT_3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.12" />
 
     <RadioGroup
         android:id="@+id/RadioGroup"
@@ -84,9 +80,20 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TEXT_3"
         app:layout_constraintVertical_bias="0.548"></RadioGroup>
+
+    <TextView
+        android:id="@+id/hinttext"
+        android:layout_width="373dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="24dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/button_load_from_server"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

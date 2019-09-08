@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Sec 2</string>
+    <string name="app_name">Sec 2 Localisation</string>
     <string name="button_get">Get CSV from server</string>
     <string name="button_reload">Reload CSV from server</string>
 
     <string name="TEXT_1_TEXT">Text 1 Fall Back</string>
     <string name="TEXT_2_TEXT">Text 2 Fall Back</string>
     <string name="TEXT_3_TEXT">Text 3 Fall Back</string>
+
+    <string name="hintText_initialisation">Localisation data initialisation</string>
+    <string name="hintText_connecting">Conneting to Localisation server</string>
+    <string name="hintText_No_network">No Connection available! Please check and tab on Get CSV</string>
+    <string name="hintText_Load">Localisation data Loaded from server</string>
+    <string name="hintText_Error">Error in Localisation data Loaded from server</string>
 </resources>
