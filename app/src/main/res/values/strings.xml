@@ -5,6 +5,5 @@
 
     <string name="TEXT_1_TEXT">Text 1 Fall Back</string>
     <string name="TEXT_2_TEXT">Text 2 Fall Back</string>
-    <string name="TEXT_3_TEXT">Text 2 Fall Back</string>
-
+    <string name="TEXT_3_TEXT">Text 3 Fall Back</string>
 </resources>

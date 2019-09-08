@@ -10,60 +10,83 @@
         android:id="@+id/button_load_from_server"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:text="@string/button_get"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup" />
 
     <TextView
         android:id="@+id/TEXT_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="284dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="60dp"
         android:text="@string/TEXT_1_TEXT"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/TEXT_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_load_from_server"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
 
     <TextView
         android:id="@+id/TEXT_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="64dp"
         android:text="@string/TEXT_2_TEXT"
-        app:layout_constraintBottom_toTopOf="@+id/TEXT_1"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_load_from_server"
-        app:layout_constraintVertical_bias="0.451" />
+        app:layout_constraintTop_toBottomOf="@+id/TEXT_1" />
 
     <TextView
         android:id="@+id/TEXT_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
+        android:layout_width="283dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="64dp"
         android:text="@string/TEXT_3_TEXT"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/TEXT_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_load_from_server" />
+        app:layout_constraintTop_toBottomOf="@+id/TEXT_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TEXT_4"
+        android:layout_width="283dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="64dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/TEXT_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TEXT_3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <RadioGroup
+        android:id="@+id/RadioGroup"
         android:layout_width="368dp"
         android:layout_height="61dp"
         android:layout_marginTop="32dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TEXT_3"
-        app:layout_constraintVertical_bias="0.741"></RadioGroup>
-
+        app:layout_constraintVertical_bias="0.548"></RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
