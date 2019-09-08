@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sec 2</string>
+    <string name="button_get">Get CSV from server</string>
+    <string name="button_reload">Reload CSV from server</string>
+
+    <string name="TEXT_1_TEXT">Text 1 Fall Back</string>
+    <string name="TEXT_2_TEXT">Text 2 Fall Back</string>
+    <string name="TEXT_3_TEXT">Text 2 Fall Back</string>
+
+</resources>
